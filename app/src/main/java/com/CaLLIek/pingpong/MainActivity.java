@@ -8,6 +8,8 @@ import android.os.Handler;
 import android.view.Window;
 import android.view.WindowManager;
 
+import com.CaLLIek.pingpong.Tutorial.TutorialFirstActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
