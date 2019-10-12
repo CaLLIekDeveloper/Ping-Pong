@@ -4,14 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TutorialSecondActivity"
-    >
+    tools:context=".TutorialThirdActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:background="@drawable/style_bg_gradiend_tutorial_grey">
+        android:background="@drawable/style_bg_gradiend_tutorial_grey"
+        android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -62,7 +61,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/tutorial_text_sharply_rise_up" />
+                            app:srcCompat="@drawable/tutorial_text_swipe_left_or_rite" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -76,16 +75,31 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            app:srcCompat="@drawable/tutorial_racket_for_punch" />
+                            app:srcCompat="@drawable/tutorial_text_to_move_the_racket" />
                     </LinearLayout>
 
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="40dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginTop="40dp"
                     android:orientation="vertical">
 
+                    <ImageView
+                        android:id="@+id/imageView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/tutorial_line_after_ball_to_bottom" />
+
+                    <ImageView
+                        android:id="@+id/tutorial_ball"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-20dp"
+                        android:layout_marginEnd="-11dp"
+                        app:srcCompat="@drawable/tutorial_ball" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -93,24 +107,33 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
-                    <ImageView
-                        android:id="@+id/tutorial_ball"
+                    <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="-20dp"
-                        app:srcCompat="@drawable/tutorial_ball" />
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
 
-                    <ImageView
-                        android:id="@+id/imageView10"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/tutorial_2_punch" />
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="80dp"
+                            android:layout_marginStart="30dp"
+                            app:srcCompat="@drawable/tutorial_vector_left_arrow" />
 
-                    <ImageView
-                        android:id="@+id/imageView4"
-                        android:layout_width="match_parent"
-                        android:layout_height="80dp"
-                        app:srcCompat="@drawable/tutorial_vector_up" />
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
+
+                        <ImageView
+                            android:id="@+id/imageView8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="30dp"
+                            app:srcCompat="@drawable/tutorial_vector_right_arrow" />
+
+                    </LinearLayout>
+
                 </LinearLayout>
 
                 <LinearLayout
@@ -160,7 +183,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="60dp"
                     android:layout_marginStart="44dp"
-                    app:srcCompat="@drawable/tutorial_second_text" />
+                    app:srcCompat="@drawable/tutorial_third_text" />
             </LinearLayout>
 
             <TextView
@@ -178,7 +201,7 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/btn_next_tutorial2"
+                    android:id="@+id/btn_next_tutorial3"
                     android:layout_width="0dp"
                     android:layout_height="30dp"
                     android:layout_weight="1"
