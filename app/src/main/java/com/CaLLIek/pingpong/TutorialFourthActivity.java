@@ -9,12 +9,12 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
 
-public class TutorialThirdActivity extends AppCompatActivity {
+public class TutorialFourthActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tutorial_third);
+        setContentView(R.layout.activity_tutorial_fourth);
 
 
         //убираем строку состояния андроида
@@ -26,7 +26,7 @@ public class TutorialThirdActivity extends AppCompatActivity {
         btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getBaseContext(),TutorialFourthActivity.class);
+                Intent intent = new Intent(getBaseContext(),TutorialFirstActivity.class);
                 startActivity(intent);
                 finish();
             }

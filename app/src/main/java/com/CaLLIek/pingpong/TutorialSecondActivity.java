@@ -26,7 +26,7 @@ public class TutorialSecondActivity extends AppCompatActivity {
         btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getBaseContext(),TutorialSecondActivity.class);
+                Intent intent = new Intent(getBaseContext(),TutorialThirdActivity.class);
                 startActivity(intent);
                 finish();
             }
