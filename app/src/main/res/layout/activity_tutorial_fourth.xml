@@ -25,13 +25,10 @@
             android:orientation="horizontal">
 
             <LinearLayout
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
-                android:orientation="horizontal"></LinearLayout>
-
-            <LinearLayout
-                android:layout_width="280dp"
+                android:layout_width="match_parent"
                 android:layout_height="550dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
                 android:background="@drawable/tutorial_radial_gradiend_blue"
                 android:orientation="horizontal">
 
@@ -94,19 +91,6 @@
 
             </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="-15dp"
-                    android:layout_marginTop="60dp"
-                    app:srcCompat="@drawable/tutorial_ball" />
-            </LinearLayout>
-
         </LinearLayout>
 
         <LinearLayout
@@ -150,5 +134,19 @@
             </LinearLayout>
 
         </LinearLayout>
+
     </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/tutorial_ball"
+            tools:layout_editor_absoluteX="315dp"
+            tools:layout_editor_absoluteY="100dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </RelativeLayout>
