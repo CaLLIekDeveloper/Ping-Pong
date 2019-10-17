@@ -9,12 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainMenuActivity"></activity>
-        <activity android:name=".Tutorial.TutorialFifthActivity" />
-        <activity android:name=".Tutorial.TutorialFourthActivity" />
-        <activity android:name=".Tutorial.TutorialThirdActivity" />
-        <activity android:name=".Tutorial.TutorialSecondActivity" />
-        <activity android:name=".Tutorial.TutorialFirstActivity" />
+        <activity android:name=".GameActitity"></activity>
+        <activity
+            android:name=".MainMenuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Tutorial.TutorialFifthActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Tutorial.TutorialFourthActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Tutorial.TutorialThirdActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Tutorial.TutorialSecondActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Tutorial.TutorialFirstActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait">

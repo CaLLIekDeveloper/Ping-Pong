@@ -24,12 +24,23 @@ public class MainMenuActivity extends AppCompatActivity {
         Window window = getWindow();
         window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        ImageView btnNext = findViewById(R.id.main_menu_btn_info);
+        ImageView btnInfo = findViewById(R.id.main_menu_btn_info);
 
-        btnNext.setOnClickListener(new View.OnClickListener() {
+        btnInfo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getBaseContext(), TutorialFirstActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        ImageView btnGame = findViewById(R.id.main_menu_btn_battle);
+
+        btnGame.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getBaseContext(), GameActitity.class);
                 startActivity(intent);
                 finish();
             }
