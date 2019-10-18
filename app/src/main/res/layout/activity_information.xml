@@ -22,6 +22,7 @@
             android:orientation="horizontal">
 
             <LinearLayout
+                android:id="@+id/information_btn_back"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
@@ -57,6 +58,7 @@
             android:orientation="horizontal">
 
             <LinearLayout
+                android:id="@+id/information_btn_rules"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
@@ -92,6 +94,7 @@
             android:orientation="horizontal">
 
             <LinearLayout
+                android:id="@+id/information_btn_share"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
@@ -127,6 +130,7 @@
             android:orientation="horizontal">
 
             <LinearLayout
+                android:id="@+id/information_btn_appreciate"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
@@ -162,6 +166,7 @@
             android:orientation="horizontal">
 
             <LinearLayout
+                android:id="@+id/information_btn_privacy_police"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">

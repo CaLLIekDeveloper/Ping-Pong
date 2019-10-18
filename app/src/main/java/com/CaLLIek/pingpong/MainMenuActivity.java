@@ -29,7 +29,7 @@ public class MainMenuActivity extends AppCompatActivity {
         btnInfo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getBaseContext(), TutorialFirstActivity.class);
+                Intent intent = new Intent(getBaseContext(), InformationActivity.class);
                 startActivity(intent);
                 finish();
             }
@@ -42,7 +42,16 @@ public class MainMenuActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(getBaseContext(), GameActitity.class);
                 startActivity(intent);
-                finish();
+            }
+        });
+
+        ImageView btnTrainee = findViewById(R.id.main_menu_btn_training);
+
+        btnTrainee.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getBaseContext(), TraineActivity.class);
+                startActivity(intent);
             }
         });
     }

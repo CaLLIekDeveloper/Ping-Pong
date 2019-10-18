@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:layout_marginLeft="40dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:layout_marginRight="40dp"
             android:layout_marginBottom="15dp"
             android:background="@drawable/game_bg_info"
@@ -164,10 +164,11 @@
             android:id="@+id/game_tv_timer_before_game"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/titillium_web_black"
             android:gravity="center"
             android:text="3"
-            android:textSize="288sp"
-            android:textColor="#FFF"/>
+            android:textColor="#FFF"
+            android:textSize="330sp" />
     </LinearLayout>
 
     <LinearLayout

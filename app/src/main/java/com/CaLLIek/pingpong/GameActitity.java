@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.Gravity;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.FrameLayout;
 import android.widget.PopupWindow;
 
@@ -17,17 +19,9 @@ public class GameActitity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game_actitity);
 
+        //убираем строку состояния андроида
+        Window window = getWindow();
+        window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-
-        FrameLayout layout = new FrameLayout(this);
-
-        popUp = new PopupWindow(this);
-
-        popUp.setBackgroundDrawable(new ColorDrawable(
-                android.graphics.Color.TRANSPARENT));
-
-        popUp.showAtLocation(layout, Gravity.TOP | Gravity.RIGHT,
-                0, 0);
-        popUp.update(30, 75, 500, 400);
     }
 }
