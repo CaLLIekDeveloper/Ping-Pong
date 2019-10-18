@@ -31,16 +31,16 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginStart="15dp"
+                    android:contentDescription="@string/back"
                     app:srcCompat="@drawable/game_btn_previous" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
                     android:fontFamily="@font/titillium_web_black"
-                    android:text="INFORMATION"
-                    android:textAppearance="@style/information"
+                    android:text="@string/information"
                     android:textColor="#44AAD4"
                     android:textSize="20sp" />
             </LinearLayout>
@@ -66,15 +66,16 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginStart="15dp"
+                    android:contentDescription="@string/rules_of_the_game"
                     app:srcCompat="@drawable/information_img_cards" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
                     android:fontFamily="@font/titillium_web_black"
-                    android:text="RULES OF THE GAME"
+                    android:text="@string/rules_of_the_game"
                     android:textColor="@android:color/darker_gray"
                     android:textSize="20sp" />
             </LinearLayout>
@@ -100,15 +101,16 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginStart="15dp"
+                    android:contentDescription="@string/share"
                     app:srcCompat="@drawable/information_img_share" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
                     android:fontFamily="@font/titillium_web_black"
-                    android:text="SHARE"
+                    android:text="@string/share"
                     android:textColor="@android:color/darker_gray"
                     android:textSize="20sp" />
             </LinearLayout>
@@ -134,15 +136,16 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginStart="15dp"
+                    android:contentDescription="@string/appreciate"
                     app:srcCompat="@drawable/information_img_star" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
                     android:fontFamily="@font/titillium_web_black"
-                    android:text="APPRECIATE"
+                    android:text="@string/appreciate"
                     android:textColor="@android:color/darker_gray"
                     android:textSize="20sp" />
             </LinearLayout>
@@ -168,17 +171,18 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginStart="15dp"
+                    android:contentDescription="@string/privacy_police"
                     app:srcCompat="@drawable/information_img_chield" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
                     android:fontFamily="@font/titillium_web_black"
-                    android:text="PRIVACY POLICY"
-                    android:textSize="20sp"
-                    android:textColor="@android:color/darker_gray" />
+                    android:text="@string/privacy_police"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="20sp" />
             </LinearLayout>
 
         </LinearLayout>

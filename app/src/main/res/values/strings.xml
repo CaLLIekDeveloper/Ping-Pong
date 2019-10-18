@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Ping Pong</string>
     <string name="tutorial_swipe_up">Свапни вверх</string>
+    <string name="information">INFORMATION</string>
+    <string name="rules_of_the_game">RULES OF THE GAME</string>
+    <string name="share">SHARE</string>
+    <string name="appreciate">APPRECIATE</string>
+    <string name="privacy_police">PRIVACY POLICE</string>
+    <string name="back">BACK</string>
 </resources>
